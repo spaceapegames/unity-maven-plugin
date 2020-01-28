@@ -32,6 +32,9 @@
 								ca.mestevens.unity:unity-maven-plugin:unity-android-build,
 								ca.mestevens.unity:unity-maven-plugin:unity-xcode-build
 							</compile>
+							<test>
+								ca.mestevens.unity:unity-maven-plugin:unity-run-tests
+							</test>
 							<package>
 								ca.mestevens.unity:unity-maven-plugin:unity-android-package-apk
 							</package>
@@ -78,6 +81,9 @@
 							<compile>
 								ca.mestevens.unity:unity-maven-plugin:unity-build-dll
 							</compile>
+							<test>
+								ca.mestevens.unity:unity-maven-plugin:unity-run-tests
+							</test>
 							<package>
 								ca.mestevens.unity:unity-maven-plugin:unity-package-dll
 							</package>
